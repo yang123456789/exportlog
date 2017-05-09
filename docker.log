@@ -1,0 +1,170 @@
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+2017-05-09 06:12:27,259 [Thread-3:139684743210752] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 06:12:53,571 [Thread-1:139908129011456] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yang/Desktop/project/django/exportlog/logs/views.py", line 9, in test
+    logging.debug(param['name'])
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 322, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'name'"
+2017-05-09 06:12:53,753 [Thread-3:139908120618752] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 06:12:53,766 [Thread-4:139908111963904] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yang/Desktop/project/django/exportlog/logs/views.py", line 9, in test
+    logging.debug(param['name'])
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 322, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'name'"
+2017-05-09 06:12:53,898 [Thread-5:139908103571200] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yang/Desktop/project/django/exportlog/logs/views.py", line 9, in test
+    logging.debug(param['name'])
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 322, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'name'"
+2017-05-09 06:12:54,040 [Thread-6:139907754358528] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 06:12:54,064 [Thread-7:139907745965824] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yang/Desktop/project/django/exportlog/logs/views.py", line 9, in test
+    logging.debug(param['name'])
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/datastructures.py", line 322, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'name'"
+2017-05-09 06:12:54,219 [Thread-8:139908120618752] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 06:13:09,422 [Thread-3:139954126583552] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 06:16:04,336 [Thread-6:140688085694208] [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 14:21:02,387 [django.request:170] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 14:23:09,565 [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 14:27:33,847 [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/yang/Desktop/project/django/exportlog/logs/views.py", line 9, in test
+    print param['age']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+2017-05-09 14:27:34,042 [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 14:29:15,275 [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 14:29:46,940 [views:test] [INFO]- yangjiajia
+2017-05-09 14:29:47,507 [views:test] [INFO]- yangjiajia
+2017-05-09 14:30:18,449 [views:test] [INFO]- yangjiajia
+2017-05-09 14:30:18,620 [views:test] [INFO]- yangjiajia
+2017-05-09 14:30:18,790 [views:test] [INFO]- yangjiajia
+2017-05-09 14:30:19,065 [views:test] [INFO]- yangjiajia
+2017-05-09 14:31:03,773 [INFO]- yangjiajia
+2017-05-09 14:35:16,189 [views:test] [INFO]- yangjiajia
+2017-05-09 14:35:21,540 [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 14:36:09,684 [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/info
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 368, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 240, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 247, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 127, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'logs.controller.log'. View does not exist in module logs.controller.
+2017-05-09 14:36:09,862 [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/info
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 368, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 240, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 247, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 127, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'logs.controller.log'. View does not exist in module logs.controller.
+2017-05-09 14:36:10,016 [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/info
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 368, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 240, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 247, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 127, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'logs.controller.log'. View does not exist in module logs.controller.
+2017-05-09 14:36:10,175 [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/info
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 368, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 240, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 247, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 127, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'logs.controller.log'. View does not exist in module logs.controller.
+2017-05-09 14:36:10,356 [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/info
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 647, in is_valid_path
+    resolve(path, urlconf)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 522, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 368, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 240, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 247, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 127, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'logs.controller.log'. View does not exist in module logs.controller.
+2017-05-09 14:36:58,278 [log:index] [INFO]- success
