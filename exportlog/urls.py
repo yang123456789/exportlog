@@ -20,4 +20,6 @@ urlpatterns = [
     # url(r'^admin/', include(admin.site.urls)),
     url('^logs/$', 'logs.views.test'),
     url('^logs/info$', 'logs.controller.log.index'),
+    url('^logs/generate$', 'logs.controller.log.generate_log'),
+    url('^logs/downloads$', 'logs.controller.log.downloads_log'),
 ]

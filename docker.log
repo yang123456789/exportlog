@@ -168,3 +168,50 @@ Traceback (most recent call last):
     (lookup_view, mod_name))
 ViewDoesNotExist: Could not import 'logs.controller.log'. View does not exist in module logs.controller.
 2017-05-09 14:36:58,278 [log:index] [INFO]- success
+2017-05-09 15:04:39,544 [views:test] [INFO]- yangjiajia
+2017-05-09 15:04:40,662 [log:index] [INFO]- success
+2017-05-09 15:05:00,614 [log:index] [INFO]- success
+2017-05-09 15:05:00,783 [log:index] [INFO]- success
+2017-05-09 15:05:00,980 [log:index] [INFO]- success
+2017-05-09 15:05:01,140 [log:index] [INFO]- success
+2017-05-09 15:05:01,316 [log:index] [INFO]- success
+2017-05-09 17:36:06,133 [log:index] [INFO]- success
+2017-05-09 17:51:06,594 [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 17:52:24,776 [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 17:53:02,040 [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-09 17:53:34,542 [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-12 15:21:32,515 [base:get_response] [WARNING]- Not Found: /
+2017-05-12 15:21:32,564 [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-12 15:46:49,378 [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-05-12 15:47:14,744 [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/generate
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options', None) is not None:
+AttributeError: 'bool' object has no attribute 'get'
+2017-05-12 15:47:48,470 [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/generate
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 223, in get_response
+    response = middleware_method(request, response)
+  File "/usr/local/lib/python2.7/dist-packages/django/middleware/clickjacking.py", line 31, in process_response
+    if response.get('X-Frame-Options', None) is not None:
+AttributeError: 'bool' object has no attribute 'get'
+2017-05-12 16:01:02,429 [base:get_response] [WARNING]- Not Found: /logs/logs/downloads
+2017-05-12 16:01:24,900 [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /logs/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 368, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 240, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 247, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/lru_cache.py", line 101, in wrapper
+    result = user_function(*args, **kwds)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/urlresolvers.py", line 127, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'logs.views.test'. View does not exist in module logs.views.
+2017-05-12 16:01:51,555 [base:get_response] [WARNING]- Not Found: /logs/
+2017-05-12 16:08:05,382 [base:get_response] [WARNING]- Not Found: /yang.log/

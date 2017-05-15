@@ -7,6 +7,8 @@
 <body>
 <button type="button" class="transfer">传递日志</button>
 <button type="button" class="logs">输送日志</button>
+<button type="button" class="generate">生成日志</button>
+<button type="button" class="downloads">下载日志</button>
 </body>
 </html>
 <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -23,7 +25,24 @@
         $.ajax({
             type: 'GET',
             url: '/logs/info',
-            data: {'name': 'yangjiajia'}
+            data: {'name': 'yangjiajia123456789'}
+        })
+    });
+
+    $('.generate').click(function () {
+        $.ajax({
+            type: 'GET',
+            url: '/logs/generate',
+            data: {'file_name': 'yang.log'}
+        })
+    });
+
+    $('.downloads').click(function () {
+        location.href = '/logs/downloads';
+        $.ajax({
+            type: 'GET',
+            url: '/logs/downloads',
+            data: {'file_name': 'yang.log'}
         })
     });
 </script>
